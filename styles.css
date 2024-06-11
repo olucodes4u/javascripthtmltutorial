@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;;
+}
+
+/* navigation styling */
+.navbar{
+  background-color: darkslategray !important;
+}
+
+.navbar-brand img {
+  height: 80px !important;
+}
+
+.navbar .nav-link{
+  color: #fff !important;
+}
+
+ /* home header */
+.hero{
+    background-image: url(images/solifeheader.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+   overflow: hidden;
+   position: relative;
+   background-attachment: fixed;
+   background-size: contain;
+   top: 0;
+   left: 0;
+}
+.hero .overlay{
+    background-color: rgba(1, 19, 1, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hero .content{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+.heroh1{
+    font-size: 45px;
+}
+.herop{
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.herolearn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #009642;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 10px 15px #525151 0.3;
+}
+
+/* home about */
+.about{
+    margin: 30px 0;
+}
+.about .container{
+    display: flex;
+}
+.about .container .box {
+   margin: 10px;
+   max-width: 600px;
+}
+.about .container .box img{
+    max-width: 100%;
+    border-left: 3px solid #009642;
+    border-radius: 15px;
+}
+
+.about h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 49px;
+}
+.about p{
+    font-size: 15px;
+    color: #525151;
+    text-align: justify;
+}
+.about .box a{
+    text-decoration: none;
+    color: #8cc329;
+}
+
+.mission{
+    margin: 30px 0;
+
+}
+
+.mission .container{
+    display: flex;
+}
+
+.mission .container .box{
+   
+    margin: 10px;
+   
+}
+
+.mission .container .box .wrap img{
+    max-width: 100%;
+    border-radius: 15px;
+   
+}
+
+.mission .container .box .wrap{
+    box-shadow: 1px 0 4px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #009642;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+.mission .container .box .wrap h4{
+    font-size: 25px;
+}
+
+
+
+.mission .container .box .wrap ul{
+  margin-left: 15px;
+}
+
+/* partners slide */
+
+.partner-slider {
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .partner-slider img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px 15px;
+  }
+  /* partners */
+
+  .partners{
+    margin: 30px 0;
+  }
+
+  .partners h1{
+    text-align: center;
+    font-size: 45px;
+  }
+
+  h1 span{
+    color: #009642;
+  }
+
+  .partners .container{
+    margin: 20px 0;
+  }
+  
+
+  /* footer styling */
+
+  .footer{
+    margin-top: 30px;
+    padding: 20px;
+    background-color: darkslategray;
+    color: #fff;
+  }
+
+
+
+  .footer p{
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .footer ul{
+    margin: 0;
+
+  }
+
+  .footer ul li{
+    list-style-type: none;
+  }
+
+  .footer ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+  }
+
+  
+
+  .footercredit p{
+    text-align: center ;
+    margin: 15px 0 20px 0;
+  }
